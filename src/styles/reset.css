@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: none;
+  list-style: none;
+  overflow-x: hidden;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+:root {
+  /* ========== Cores ========== */
+  --color-primary-green: #b0cb1f;
+  --color-primary-white: #ffffff;
+  --color-primary-black: #333231;
+
+  /* ========== Fontes ========== */
+  --font-family: "Inter", sans-serif;
+  --font-headline-h1: 700 60px var(--font-family);
+  --font-headline-h2: 700 48px var(--font-family);
+  --font-headline-h3: 700 40px var(--font-family);
+  --font-headline-h4: 700 25px var(--font-family);
+  --font-body: 400 16px var(--font-family);
+  --font-button: 500 16px var(--font-family);
+}
