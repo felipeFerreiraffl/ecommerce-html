@@ -225,6 +225,10 @@
   padding: 0 5px;
 }
 
+.infos-container .field input::-webkit-inner-spin-button {
+  display: none;
+}
+
 .infos-container .field .long {
   width: 249px;
 }
