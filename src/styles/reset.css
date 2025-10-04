@@ -16,7 +16,9 @@
   --color-secondary-blue-500: #2da5f3;
   --color-secondary-warning-400: #efd33d;
   --color-secondary-gray-900: #191c1f;
+  --color-secondary-gray-600: #5f6c72;
   --color-secondary-gray-500: #77878f;
+  --color-secondary-orange-500: #fa8232;
   --color-neutral-black: #000;
 
   /* ========== Fontes ========== */
@@ -32,6 +34,7 @@
 /* ========== Classes ========== */
 
 .btn-primary {
+  cursor: pointer;
   background-color: var(--color-primary-green);
   color: var(--color-secondary-black);
   padding: 12px 30px;
@@ -42,5 +45,5 @@
 
 .btn-primary:hover {
   filter: brightness(1.05);
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
