@@ -3,8 +3,9 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px 0;
+  gap: 425px;
 }
 
 .header .img {
@@ -235,6 +236,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 60px 0;
+  gap: 323px;
 }
 
 footer .contacts {
@@ -285,4 +287,10 @@ footer .social-link .social {
 
 footer .social-link .social:hover {
   background-color: var(--color-primary-green);
+}
+
+footer .menus-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
 }
