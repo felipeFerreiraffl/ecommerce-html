@@ -3,7 +3,6 @@
   margin: 0;
   background: none;
   list-style: none;
-  overflow-x: hidden;
   border: none;
   outline: none;
   text-decoration: none;
@@ -12,8 +11,13 @@
 :root {
   /* ========== Cores ========== */
   --color-primary-green: #b0cb1f;
-  --color-primary-white: #ffffff;
-  --color-primary-black: #333231;
+  --color-secondary-white: #ffffff;
+  --color-secondary-black: #333231;
+  --color-secondary-blue-500: #2da5f3;
+  --color-secondary-warning-400: #efd33d;
+  --color-secondary-gray-900: #191c1f;
+  --color-secondary-gray-500: #77878f;
+  --color-neutral-black: #000;
 
   /* ========== Fontes ========== */
   --font-family: "Inter", sans-serif;
@@ -23,4 +27,20 @@
   --font-headline-h4: 700 25px var(--font-family);
   --font-body: 400 16px var(--font-family);
   --font-button: 500 16px var(--font-family);
+}
+
+/* ========== Classes ========== */
+
+.btn-primary {
+  background-color: var(--color-primary-green);
+  color: var(--color-secondary-black);
+  padding: 12px 30px;
+  border-radius: 15px 3px;
+  font: var(--font-button);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+  transform: scale(1.05); 
 }
