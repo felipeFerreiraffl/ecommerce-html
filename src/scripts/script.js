@@ -23,7 +23,7 @@ const neighborhood = document.getElementById("neighborhood");
 // Altera o valor dos campos automaticamente
 cep.addEventListener("input", (el) => {
   let cepValue = cep.value;
-  if (cepValue.length === 8) {
+  if (cepValue.length == 8) {
     fetch(`https://viacep.com.br/ws/${el.target.value}/json/`)
       .then((res) => res.json())
       .then((data) => {
