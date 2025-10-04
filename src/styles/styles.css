@@ -155,7 +155,9 @@
 }
 
 .color-choice-container .color-container .color {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   width: 44px;
   aspect-ratio: 1 / 1;
@@ -167,11 +169,6 @@
 }
 
 .color-choice-container .color-container .color span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
   width: 32px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
