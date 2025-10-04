@@ -30,6 +30,7 @@
   --font-headline-h4: 700 25px var(--font-family);
   --font-body: 400 16px var(--font-family);
   --font-button: 500 16px var(--font-family);
+  --font-body-regular-body-3: 400 14px var(--font-family);
   --font-body-small-600: 600 14px var(--font-product);
   --font-body-small-400: 400 14px var(--font-product);
 }
