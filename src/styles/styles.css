@@ -171,4 +171,61 @@
   background-color: #b1b5b8;
 }
 
+.infos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 0;
+  margin-top: 31px;
+  background-color: rgba(176, 203, 31, 0.1);
+}
 
+.infos-container h2 {
+  font: var(--font-headline-h2);
+  color: var(--color-neutral-black);
+}
+
+.infos-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.infos-container .field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.infos-container .field label {
+  font: var(--font-body);
+  color: var(--color-neutral-black);
+}
+
+.infos-container .field input {
+  font: var(--font-body);
+  border: 1px solid var(--color-neutral-black);
+  height: 41px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.infos-container .field .long {
+  width: 249px;
+}
+
+.infos-container .field .small {
+  width: 185px;
+}
+
+.field-container-1,
+.field-container-2,
+.field-container-3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
